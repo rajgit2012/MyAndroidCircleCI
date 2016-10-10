@@ -23,4 +23,7 @@ public class SignupActivity extends AppCompatActivity{
     protected void onDestroy() {
         super.onDestroy();
     }
+    protected void syncDataToServer(){
+        System.out.println("Lets sync data to server!");
+    }
 }
