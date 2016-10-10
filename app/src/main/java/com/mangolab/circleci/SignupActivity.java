@@ -14,4 +14,13 @@ public class SignupActivity extends AppCompatActivity{
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
 }
